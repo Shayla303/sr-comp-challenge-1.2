@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  color: #ffffff;
+  font-family: 'Lakki Reddy', cursive;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+body::after {
+ clear: both;
+ content: '';
+ display: table;
+}
+
+.boxes-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  float: left;
+  height: 100%;
+  overflow: scroll;
+  width: 60%;
+}
+
+.div {
+  display: inline-block;
+  flex-direction: column;
+  flex-direction: row;
+  margin: 0;
+}
+
+.big-one {
+  background-color: #4d9de0;
+  display: flex;
+  flex-direction: column;
+  height: 34%;
+  width: 66%;
+}
+
+h2 {
+  font-size: 60px;
+  margin-left: 25px;
+  margin-bottom: 30px;
+}
+
+  h3 {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-top: -30px;
+}
+
+.small-boxes {
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  height: 34%;
+  justify-content: center;
+  align-content: center;
+  width: 33%;
+}
+
+#two-two {
+  background-color: #e1bc29;
+}
+
+#man-glasses {
+  width: 70px;
+  margin-left: 35%;
+}
+
+.talk {
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 20px;
+ width: 150px;
+}
+
+
+#three-three {
+  background-color: #3bb273;
+  display: flex;
+  height: 33%;
+  width: 33%;
+}
+
+#woman-bob {
+  width: 70px;
+  margin-left: 35%;
+}
+
+
+#four-four {
+  background-color: #e15554;
+  display: flex;
+  height: 33%;
+  width: 33%;
+}
+
+#afro-woman {
+  width: 70px;
+  margin-left: 35%;
+}
+
+#five-five {
+  background-color: #7768ae;
+  display: flex;
+  height: 33%;
+  width: 33%;
+}
+
+#freckles {
+  width: 70px;
+  margin-left: 35%;
+}
+
+
+#six-six {
+  background-color: #e1bc29;
+  display: flex;
+  height: 33%;
+  width: 33%;
+}
+
+#main-girl {
+  width: 70px;
+  margin-left: 35%;
+}
+
+#seven-seven {
+  background-color: #fc7753;
+  display: flex;
+  height: 33%;
+  width: 33%;
+}
+
+#third-girl {
+  width: 70px;
+  margin-left: 35%;
+}
+
+#eight-eight {
+  background-color: #66d7d1;
+  display: flex;
+  height: 33%;
+  width: 33%;
+}
+
+#nerd-girl {
+  width: 70px;
+  margin-left: 35%;
+}
+
+.picture-container {
+  align-content: stretch;
+  display: inline-flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 40%;
+}
+
+img {
+  width: 100%;
+}
